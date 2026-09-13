@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luthfi Rahman | Personal CV dan Portfolio | Digital Creative</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-orange-100">
+    <nav class="sticky inset-x-0 top-4 px-4 hidden sm:block z-50">
+        <div class="mx-auto flex flex-wrap items-center justify-between gap-3 rounded-2xl border-2 border-black bg-orange-100 px-4 py-3 shadow-[4px_4px_0px_#000] max-w-6xl">
+            <a href="#" class="flex items-center gap-3 text-gray-800">
+                <img src="img/LR-Logo.png" alt="Luthfi Rahman" class="h-10 w-10 object-contain" />
+                <span class="text-lg font-bold">Luthfi Rahman</span>
+            </a>
+            <ul class="flex flex-wrap justify-center gap-2 text-sm font-semibold md:gap-4">
+                <li><a href="#home" class="rounded px-2 py-1 transition hover:shadow-[4px_4px_0px_#000] hover:border-2 hover:border-black focus:outline-none focus:border-black focus:shadow-[4px_4px_0px_#000]">Home</a></li>
+                <li><a href="#about" class="rounded px-2 py-1 transition hover:shadow-[4px_4px_0px_#000] hover:border-2 hover:border-black focus:outline-none focus:border-black focus:shadow-[4px_4px_0px_#000]">About Me</a></li>
+                <li><a href="#projects" class="rounded px-2 py-1 transition hover:shadow-[4px_4px_0px_#000] hover:border-2 hover:border-black focus:outline-none focus:border-black focus:shadow-[4px_4px_0px_#000]">Project</a></li>
+                <li><a href="#contact" class="rounded px-2 py-1 transition hover:shadow-[4px_4px_0px_#000] hover:border-2 hover:border-black focus:outline-none focus:border-black focus:shadow-[4px_4px_0px_#000]">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="fixed inset-x-0 top-4 px-4 sm:hidden z-50">
+        <div class="mx-auto max-w-6xl rounded-2xl border-2 border-black bg-orange-100 shadow-[4px_4px_0px_#000]">
+            <!-- Top Bar -->
+            <div class="flex items-center justify-between px-4 py-3">
+                <a href="#" class="flex items-center gap-3 text-gray-800">
+                    <img src="img/LR-Logo.png" alt="Luthfi Rahman" class="h-10 w-10 object-contain">
+                    <span class="text-lg font-bold">Luthfi Rahman</span>
+                </a>
+
+                <button
+                    id="menu-toggle"
+                    class="rounded-md border-2 border-transparent p-2 transition hover:border-black hover:shadow-[4px_4px_0px_#000] focus:outline-none focus:border-black focus:shadow-[4px_4px_0px_#000] active active:translate-x-[2px] active:translate-y-[2px] active:shadow-[2px_2px_0px_#000]"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="h-6 w-6">
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M3.75 5.25h16.5m-16.5 6.75h16.5m-16.5 6.75h16.5" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="max-h-0 overflow-hidden border-t-2 border-black opacity-0 transition-all ease-in-out duration-300 px-4 py-0">
+                <ul class="flex flex-col gap-3 text-center font-semibold">
+                    <li>
+                        <a href="#home" class="block rounded-lg border-2 border-transparent px-3 py-2 transition-all hover:border-black hover:shadow-[4px_4px_0px_#000] focus:outline-none focus:border-black focus:shadow-[4px_4px_0px_#000] active:translate-[2px] active:translate-y-[2px] active:shadow-[2px_2px_0px_#000]">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#about" class="block rounded-lg border-2 border-transparent px-3 py-2 transition-all hover:border-black hover:shadow-[4px_4px_0px_#000] focus:outline-none focus:border-black focus:shadow-[4px_4px_0px_#000] active:translate-[2px] active:translate-y-[2px] active:shadow-[2px_2px_0px_#000]">
+                            About Me
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="block rounded-lg border-2 border-transparent px-3 py-2 transition-all hover:border-black hover:shadow-[4px_4px_0px_#000] focus:outline-none focus:border-black focus:shadow-[4px_4px_0px_#000] active:translate-[2px] active:translate-y-[2px] active:shadow-[2px_2px_0px_#000]">
+                            Services
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="block rounded-lg border-2 border-transparent px-3 py-2 transition-all hover:border-black hover:shadow-[4px_4px_0px_#000] focus:outline-none focus:border-black focus:shadow-[4px_4px_0px_#000] active:translate-[2px] active:translate-y-[2px] active:shadow-[2px_2px_0px_#000]">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main id="home" class="mx-auto mt-24 md:mt-6 w-full">
+    <section class="m-5 px-8 py-10 md:py-16 border-2 border-black shadow-[4px_4px_0px_#000]">
+        <div class="mx-auto grid max-w-6xl grid-cols-1 items-center gap-10 md:grid-cols-2">
+
+            <!-- Content -->
+            <div class="space-y-6">
+
+                <span class="inline-block rounded-full border-2 shadow-[2px_2px_0px_#f97316] border-orange-500 px-4 py-1 text-sm font-medium tracking-wide">
+                    Technology Creative
+                </span>
+
+                <div class="space-y-3">
+                    <p class="text-lg text-gray-600">
+                        Hi, I'm
+                        <span class="font-semibold text-black">Muhammad Luthfi Rahman</span>
+                    </p>
+
+                    <h1 class="text-4xl font-black leading-tight lg:text-6xl">
+                        Building Digital
+                        <span class="block text-transparent" style="-webkit-text-stroke: 2px #000;">
+                            Creative
+                        </span>
+                    </h1>
+                </div>
+
+                <p class="max-w-xl leading-8 text-gray-600">
+                    Helping businesses and individuals build modern websites,
+                    digital systems, and creative solutions.
+                </p>
+
+            </div>
+
+            <!-- Image -->
+            <div class="relative h-fit flex justify-center">
+
+                <div
+                    class="absolute h-[300px] w-[300px] rounded-full bg-orange-300 lg:h-[430px] lg:w-[430px] md:w-[350px] md:h-[350px]">
+                </div>
+
+                <img
+                    src="./assets/profile.png"
+                    alt="Profile"
+                    class="relative z-10 h-[300px] lg:h-[450px] object-contain">
+
+            </div>
+
+        </div>
+    </section>
+
+    <div class="relative overflow-hidden border-y-4 border-black bg-black py-3">
+
+        <div class="flex w-max animate-marquee gap-10 whitespace-nowrap">
+            
+            <span class="font-black uppercase tracking-[6px] text-[#F4E4C1]">  
+            </span>
+            
+            <span class="font-black uppercase tracking-[6px] text-[#F4E4C1]">
+                TECHNOLOGY CREATIVE
+            </span>
+
+            <span class="text-[#6F8F7B]">◆</span>
+
+            <span class="font-black uppercase tracking-[6px] text-[#F4E4C1]">
+                AVAILABLE FOR FREELANCE
+            </span>
+
+            <span class="text-violet-400">◆</span>
+
+            <span class="font-black uppercase tracking-[6px] text-[#F4E4C1]">
+                WEB DEVELOPMENT
+            </span>
+
+            <span class="text-[#6F8F7B]">◆</span>
+
+            <span class="font-black uppercase tracking-[6px] text-[#F4E4C1]">
+                DATABASE
+            </span>
+
+            <span class="text-violet-400">◆</span>
+
+            <span class="font-black uppercase tracking-[6px] text-[#F4E4C1]">
+                IT SUPPORT
+            </span>
+
+            <span class="text-[#6F8F7B]">◆</span>
+
+            <span class="font-black uppercase tracking-[6px] text-[#F4E4C1]">
+                MULTIMEDIA
+            </span>
+
+        </div>
+
+    </div>
+
+    <!-- Paper Tear Divider -->
+    <div class="relative overflow-hidden bg-orange-100 leading-none">
+
+        <svg
+            class="block w-full h-20"
+            viewBox="0 0 1440 120"
+            preserveAspectRatio="none"
+            xmlns="http://www.w3.org/2000/svg">
+
+            <path
+                fill="#151B19"
+                d="
+                M0,35
+                C40,55 80,15 120,35
+                C160,55 200,15 240,35
+                C280,55 320,15 360,35
+                C400,55 440,15 480,35
+                C520,55 560,15 600,35
+                C640,55 680,15 720,35
+                C760,55 800,15 840,35
+                C880,55 920,15 960,35
+                C1000,55 1040,15 1080,35
+                C1120,55 1160,15 1200,35
+                C1240,55 1280,15 1320,35
+                C1360,55 1400,15 1440,35
+                L1440,120
+                L0,120
+                Z"/>
+        </svg>
+
+    </div>
+
+    <section id="about" class="bg-[#151B19] py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+
+            <!-- Heading -->
+            <div class="mb-16">
+
+                <span
+                    class="inline-block bg-[#5F8F76] border-4 border-black px-4 py-2 font-bold shadow-[5px_5px_0_#000]">
+                    ABOUT ME
+                </span>
+
+                <h2
+                    class="mt-6 text-5xl font-black text-[#F5F5F5]">
+                    Technology,
+                    <span class="text-[#8B5CF6]">Creativity</span>,
+                    and Problem Solving.
+                </h2>
+
+            </div>
+
+            <!-- Introduction -->
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+                <div
+                    class="bg-[#1F2824] border-4 border-black shadow-[4px_4px_0_#000] p-8">
+
+                    <h3
+                        class="text-3xl font-black text-white mb-6">
+                        Who Am I?
+                    </h3>
+
+                    <p class="text-gray-300 leading-9 text-justify">
+
+                        As a Technology Creative, I enjoy creating
+                        digital experiences through website
+                        development, database solutions,
+                        IT support, data management,
+                        and creative multimedia.
+
+                        I believe every project should combine
+                        functionality, usability,
+                        and creativity into one meaningful solution.
+
+                    </p>
+
+                </div>
+
+                <div class="flex justify-center">
+
+                    <div
+                        class="w-80 h-96 bg-[#5F8F76] border-4 border-black shadow-[4px_4px_0_#000]">
+
+                        <!-- Image -->
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Career -->
+
+            <div
+                class="mt-20 bg-[#1F2824] border-4 border-black shadow-[4px_4px_0_#000] p-8">
+
+                <h3 class="text-3xl font-black text-white mb-10">
+                    Career Journey
+                </h3>
+
+                <div class="flex justify-between items-center">
+
+                    <div>
+                        <div class="w-5 h-5 bg-[#5F8F76] rounded-full border-2 border-black"></div>
+                        <p class="text-white mt-4 font-bold">2022</p>
+                        <p class="text-gray-400">Started Learning</p>
+                    </div>
+
+                    <div class="flex-1 h-1 bg-[#5F8F76] mx-5"></div>
+
+                    <div>
+                        <div class="w-5 h-5 bg-[#5F8F76] rounded-full border-2 border-black"></div>
+                        <p class="text-white mt-4 font-bold">2023</p>
+                        <p class="text-gray-400">Frontend</p>
+                    </div>
+
+                    <div class="flex-1 h-1 bg-[#5F8F76] mx-5"></div>
+
+                    <div>
+                        <div class="w-5 h-5 bg-[#5F8F76] rounded-full border-2 border-black"></div>
+                        <p class="text-white mt-4 font-bold">Today</p>
+                        <p class="text-gray-400">Technology Creative</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Academic + Philosophy -->
+
+            <div class="grid lg:grid-cols-2 gap-8 mt-20">
+
+                <div
+                    class="bg-[#1F2824] border-4 border-black shadow-[4px_4px_0_#000] p-8">
+
+                    <h3 class="text-2xl font-black text-white mb-6">
+                        Academic
+                    </h3>
+
+                    <div
+                        class="bg-[#27312D] border-2 border-black p-6">
+
+                        <h4 class="font-bold text-white">
+                            Information Technology | Formal Education
+                        </h4>
+
+                        <p class="text-gray-400 mt-2">
+                            YARSI University
+                        </p>
+
+                        <p class="text-[#8B5CF6] mt-2">
+                            2020 - 2024
+                        </p>
+
+                    </div>
+
+                    <div
+                        class="bg-[#27312D] border-2 border-black p-6">
+
+                        <h4 class="font-bold text-white">
+                            Software Enggineering Bootcamp | Non-Formal Education
+                        </h4>
+
+                        <p class="text-gray-400 mt-2">
+                            RevoU
+                        </p>
+
+                        <p class="text-[#8B5CF6] mt-2">
+                            2024
+                        </p>
+
+                    </div>
+
+                    <div
+                        class="bg-[#27312D] border-2 border-black p-6">
+
+                        <h4 class="font-bold text-white">
+                            Data Analytics | Non-Formal Education
+                        </h4>
+
+                        <p class="text-gray-400 mt-2">
+                            RevoU
+                        </p>
+
+                        <p class="text-[#8B5CF6] mt-2">
+                            2026
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="bg-[#1F2824] border-4 border-black shadow-[4px_4px_0_#000] p-8
+                        flex flex-col justify-center items-center text-center">
+
+                    <h3 class="mb-6 text-2xl font-black text-white">
+                        Work Philosophy
+                    </h3>
+
+                    <blockquote class="text-2xl font-semibold italic text-[#5F8F76]">
+                        "No man earns anything better than that which he earns with his own hands."
+                    </blockquote>
+
+                    <h2 class="mt-3 text-xl font-semibold italic text-white">
+                        — Prophet Muhammad SAW
+                    </h2>
+
+                </div>
+
+            </div>
+
+            <!-- Skill -->
+
+            <div class="mt-20">
+
+                <h3 class="text-3xl text-white font-black mb-8">
+                    Skill Set
+                </h3>
+
+                <div class="grid md:grid-cols-2 xl:grid-cols-5 gap-6">
+
+                    <div class="bg-red-800 border-4 border-black shadow-[6px_6px_0_#000] p-6">
+                        <h4 class="font-bold text-yellow-300 mb-4">Frontend</h4>
+                        <ul class="space-y-2 text-yellow-200">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Tailwind</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-purple-900 border-4 border-black shadow-[6px_6px_0_#000] p-6">
+                        <h4 class="font-bold text-blue-400 mb-4">Backend</h4>
+                        <ul class="space-y-2 text-blue-200">
+                            <li>PHP</li>
+                            <li>Laravel</li>
+                            <li>Node.js</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-green-900 border-4 border-black shadow-[6px_6px_0_#000] p-6">
+                        <h4 class="font-bold text-green-200 mb-4">Database</h4>
+                        <ul class="space-y-2 text-green-100">
+                            <li>MySQL</li>
+                            <li>MariaDB</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-orange-100 border-4 border-black shadow-[6px_6px_0_#000] p-6">
+                        <h4 class="font-bold text-orange-900 mb-4">Creative</h4>
+                        <ul class="space-y-2 text-orange-800">
+                            <li>Photoshop</li>
+                            <li>Illustrator</li>
+                            <li>Premiere</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-yellow-300 border-4 border-black shadow-[6px_6px_0_#000] p-6">
+                        <h4 class="font-bold text-red-900 mb-4">IT Support</h4>
+                        <ul class="space-y-2 text-red-800">
+                            <li>Windows</li>
+                            <li>Linux</li>
+                            <li>Networking</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Fun Fact -->
+
+            <div class="mt-20">
+
+                <h3 class="text-3xl text-white font-black mb-8">
+                    Fun Facts
+                </h3>
+
+                <div class="flex flex-wrap gap-6">
+
+                    <div class="rotate-2 bg-orange-200 border-4 border-black p-6 font-semibold shadow-[6px_6px_0_#000] hover:scale-105 transition-transform">
+                        ☕ Coffee Lover
+                    </div>
+
+                    <div class="-rotate-2 bg-red-300 border-4 border-black p-6 font-semibold shadow-[6px_6px_0_#000] hover:scale-105 transition-transform">
+                        🎮 Gaming
+                    </div>
+
+                    <div class="rotate-1 bg-green-300 border-4 border-black p-6 font-semibold shadow-[6px_6px_0_#000] hover:scale-105 transition-transform">
+                        📸 Photography
+                    </div>
+
+                    <div class="-rotate-1 bg-purple-300 border-4 border-black p-6 font-semibold shadow-[6px_6px_0_#000] hover:scale-105 transition-transform">
+                        🎵 Music
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <div class="relative overflow-hidden bg-[#151B19] leading-none">
+
+        <svg
+            class="block w-full h-20"
+            viewBox="0 0 1440 120"
+            preserveAspectRatio="none"
+            xmlns="http://www.w3.org/2000/svg">
+
+            <path
+                fill="#ffedd4"
+                d="
+                M0,35
+                C40,55 80,15 120,35
+                C160,55 200,15 240,35
+                C280,55 320,15 360,35
+                C400,55 440,15 480,35
+                C520,55 560,15 600,35
+                C640,55 680,15 720,35
+                C760,55 800,15 840,35
+                C880,55 920,15 960,35
+                C1000,55 1040,15 1080,35
+                C1120,55 1160,15 1200,35
+                C1240,55 1280,15 1320,35
+                C1360,55 1400,15 1440,35
+                L1440,120
+                L0,120
+                Z"/>
+        </svg>
+
+    </div>
+
+    <section id="project" class="py-24 px-6">
+        <div class="">
+
+        </div>
+    </section>
+
+</main>
+</body>
+</html>
+<script>
+    const toggle = document.getElementById("menu-toggle");
+    const menu = document.getElementById("mobile-menu");
+
+    toggle.addEventListener("click", () => {
+    menu.classList.toggle("max-h-0");
+    menu.classList.toggle("max-h-80");
+
+    menu.classList.toggle("opacity-0");
+    menu.classList.toggle("opacity-100");
+
+    menu.classList.toggle("py-0");
+    menu.classList.toggle("py-4");
+});
+</script>
