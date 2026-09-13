@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luthfi Rahman | Personal CV dan Portfolio | Digital Creative</title>
+    <title>Luthfi Rahman | Portfolio and </title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-orange-100">
@@ -17,7 +18,7 @@
             <ul class="flex flex-wrap justify-center gap-2 text-sm font-semibold md:gap-4">
                 <li><a href="#home" class="rounded px-2 py-1 transition hover:shadow-[4px_4px_0px_#000] hover:border-2 hover:border-black focus:outline-none focus:border-black focus:shadow-[4px_4px_0px_#000]">Home</a></li>
                 <li><a href="#about" class="rounded px-2 py-1 transition hover:shadow-[4px_4px_0px_#000] hover:border-2 hover:border-black focus:outline-none focus:border-black focus:shadow-[4px_4px_0px_#000]">About Me</a></li>
-                <li><a href="#projects" class="rounded px-2 py-1 transition hover:shadow-[4px_4px_0px_#000] hover:border-2 hover:border-black focus:outline-none focus:border-black focus:shadow-[4px_4px_0px_#000]">Project</a></li>
+                <li><a href="#project" class="rounded px-2 py-1 transition hover:shadow-[4px_4px_0px_#000] hover:border-2 hover:border-black focus:outline-none focus:border-black focus:shadow-[4px_4px_0px_#000]">Project</a></li>
                 <li><a href="#contact" class="rounded px-2 py-1 transition hover:shadow-[4px_4px_0px_#000] hover:border-2 hover:border-black focus:outline-none focus:border-black focus:shadow-[4px_4px_0px_#000]">Contact</a></li>
             </ul>
         </div>
@@ -65,13 +66,13 @@
                     </li>
 
                     <li>
-                        <a href="#" class="block rounded-lg border-2 border-transparent px-3 py-2 transition-all hover:border-black hover:shadow-[4px_4px_0px_#000] focus:outline-none focus:border-black focus:shadow-[4px_4px_0px_#000] active:translate-[2px] active:translate-y-[2px] active:shadow-[2px_2px_0px_#000]">
-                            Services
+                        <a href="#project" class="block rounded-lg border-2 border-transparent px-3 py-2 transition-all hover:border-black hover:shadow-[4px_4px_0px_#000] focus:outline-none focus:border-black focus:shadow-[4px_4px_0px_#000] active:translate-[2px] active:translate-y-[2px] active:shadow-[2px_2px_0px_#000]">
+                            Project
                         </a>
                     </li>
 
                     <li>
-                        <a href="#" class="block rounded-lg border-2 border-transparent px-3 py-2 transition-all hover:border-black hover:shadow-[4px_4px_0px_#000] focus:outline-none focus:border-black focus:shadow-[4px_4px_0px_#000] active:translate-[2px] active:translate-y-[2px] active:shadow-[2px_2px_0px_#000]">
+                        <a href="#contact" class="block rounded-lg border-2 border-transparent px-3 py-2 transition-all hover:border-black hover:shadow-[4px_4px_0px_#000] focus:outline-none focus:border-black focus:shadow-[4px_4px_0px_#000] active:translate-[2px] active:translate-y-[2px] active:shadow-[2px_2px_0px_#000]">
                             Contact
                         </a>
                     </li>
@@ -88,7 +89,7 @@
             <div class="space-y-6">
 
                 <span class="inline-block rounded-full border-2 shadow-[2px_2px_0px_#f97316] border-orange-500 px-4 py-1 text-sm font-medium tracking-wide">
-                    Technology Creative
+                    Computer Science Graduate
                 </span>
 
                 <div class="space-y-3">
@@ -240,15 +241,16 @@
 
                     <p class="text-gray-300 leading-9 text-justify">
 
-                        As a Technology Creative, I enjoy creating
-                        digital experiences through website
-                        development, database solutions,
-                        IT support, data management,
-                        and creative multimedia.
+                        Lulusan Ilmu Komputer dengan IPK 3.71 (Cumlaude),
+                        berpengalaman di bidang arsitektur database,
+                        rekayasa sistem, administrasi jaringan, dan
+                        operasional IT. Terbiasa merancang skema
+                        SQL/NoSQL, mengelola simulasi jaringan,
+                        dan memimpin proyek teknis bersama klien.
 
-                        I believe every project should combine
-                        functionality, usability,
-                        and creativity into one meaningful solution.
+                        Profesional yang terbiasa bekerja dengan data
+                        dan memanfaatkan tools berbasis AI untuk
+                        menjaga integritas serta efisiensi sistem.
 
                     </p>
 
@@ -276,28 +278,36 @@
                     Career Journey
                 </h3>
 
-                <div class="flex justify-between items-center">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 md:gap-0">
 
-                    <div>
+                    <div class="flex-1">
                         <div class="w-5 h-5 bg-[#5F8F76] rounded-full border-2 border-black"></div>
-                        <p class="text-white mt-4 font-bold">2022</p>
-                        <p class="text-gray-400">Started Learning</p>
+                        <p class="text-white mt-4 font-bold">Aug 2023</p>
+                        <p class="text-gray-400">Multimedia Data Intern — RRI</p>
                     </div>
 
-                    <div class="flex-1 h-1 bg-[#5F8F76] mx-5"></div>
+                    <div class="hidden md:block flex-1 h-1 bg-[#5F8F76] mx-5"></div>
 
-                    <div>
+                    <div class="flex-1">
                         <div class="w-5 h-5 bg-[#5F8F76] rounded-full border-2 border-black"></div>
-                        <p class="text-white mt-4 font-bold">2023</p>
-                        <p class="text-gray-400">Frontend</p>
+                        <p class="text-white mt-4 font-bold">2024</p>
+                        <p class="text-gray-400">Teaching Assistant & Database Engineer — Yarsi University</p>
                     </div>
 
-                    <div class="flex-1 h-1 bg-[#5F8F76] mx-5"></div>
+                    <div class="hidden md:block flex-1 h-1 bg-[#5F8F76] mx-5"></div>
 
-                    <div>
+                    <div class="flex-1">
                         <div class="w-5 h-5 bg-[#5F8F76] rounded-full border-2 border-black"></div>
-                        <p class="text-white mt-4 font-bold">Today</p>
-                        <p class="text-gray-400">Technology Creative</p>
+                        <p class="text-white mt-4 font-bold">2025</p>
+                        <p class="text-gray-400">Front End Developer — Book Recommendation App</p>
+                    </div>
+
+                    <div class="hidden md:block flex-1 h-1 bg-[#5F8F76] mx-5"></div>
+
+                    <div class="flex-1">
+                        <div class="w-5 h-5 bg-[#5F8F76] rounded-full border-2 border-black"></div>
+                        <p class="text-white mt-4 font-bold">2026 — Today</p>
+                        <p class="text-gray-400">Data-Driven Content Creator — TikTok Affiliate</p>
                     </div>
 
                 </div>
@@ -319,15 +329,15 @@
                         class="bg-[#27312D] border-2 border-black p-6">
 
                         <h4 class="font-bold text-white">
-                            Information Technology | Formal Education
+                            Bachelor of Computer Science, Information Technology Major
                         </h4>
 
                         <p class="text-gray-400 mt-2">
-                            YARSI University
+                            Yarsi University
                         </p>
 
                         <p class="text-[#8B5CF6] mt-2">
-                            2020 - 2024
+                            2020 - 2024 · GPA 3.71 / 4.00 · Cumlaude
                         </p>
 
                     </div>
@@ -336,7 +346,7 @@
                         class="bg-[#27312D] border-2 border-black p-6">
 
                         <h4 class="font-bold text-white">
-                            Software Enggineering Bootcamp | Non-Formal Education
+                            Software Engineering Bootcamp | Non-Formal Education
                         </h4>
 
                         <p class="text-gray-400 mt-2">
@@ -344,7 +354,7 @@
                         </p>
 
                         <p class="text-[#8B5CF6] mt-2">
-                            2024
+                            Nov 2024
                         </p>
 
                     </div>
@@ -353,7 +363,7 @@
                         class="bg-[#27312D] border-2 border-black p-6">
 
                         <h4 class="font-bold text-white">
-                            Data Analytics | Non-Formal Education
+                            Data Analytics Mini Course | Non-Formal Education
                         </h4>
 
                         <p class="text-gray-400 mt-2">
@@ -361,7 +371,7 @@
                         </p>
 
                         <p class="text-[#8B5CF6] mt-2">
-                            2026
+                            Jun 2026
                         </p>
 
                     </div>
@@ -396,54 +406,57 @@
                     Skill Set
                 </h3>
 
-                <div class="grid md:grid-cols-2 xl:grid-cols-5 gap-6">
+                <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
+
+                    <div class="bg-green-900 border-4 border-black shadow-[6px_6px_0_#000] p-6">
+                        <h4 class="font-bold text-green-200 mb-4">Databases & Analytics</h4>
+                        <ul class="space-y-2 text-green-100">
+                            <li>PostgreSQL</li>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                            <li>Power BI</li>
+                            <li>Domo</li>
+                        </ul>
+                    </div>
 
                     <div class="bg-red-800 border-4 border-black shadow-[6px_6px_0_#000] p-6">
-                        <h4 class="font-bold text-yellow-300 mb-4">Frontend</h4>
+                        <h4 class="font-bold text-yellow-300 mb-4">Front-End & Frameworks</h4>
                         <ul class="space-y-2 text-yellow-200">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Tailwind</li>
+                            <li>Vue.js</li>
+                            <li>Bootstrap</li>
+                            <li>HTML5 & CSS3</li>
                             <li>JavaScript</li>
+                            <li>Tailwind CSS</li>
                         </ul>
                     </div>
 
                     <div class="bg-purple-900 border-4 border-black shadow-[6px_6px_0_#000] p-6">
-                        <h4 class="font-bold text-blue-400 mb-4">Backend</h4>
+                        <h4 class="font-bold text-blue-400 mb-4">Back-End & Core Logic</h4>
                         <ul class="space-y-2 text-blue-200">
-                            <li>PHP</li>
-                            <li>Laravel</li>
-                            <li>Node.js</li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-green-900 border-4 border-black shadow-[6px_6px_0_#000] p-6">
-                        <h4 class="font-bold text-green-200 mb-4">Database</h4>
-                        <ul class="space-y-2 text-green-100">
-                            <li>MySQL</li>
-                            <li>MariaDB</li>
-                            <li>PostgreSQL</li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-orange-100 border-4 border-black shadow-[6px_6px_0_#000] p-6">
-                        <h4 class="font-bold text-orange-900 mb-4">Creative</h4>
-                        <ul class="space-y-2 text-orange-800">
-                            <li>Photoshop</li>
-                            <li>Illustrator</li>
-                            <li>Premiere</li>
+                            <li>Laravel (PHP)</li>
+                            <li>REST API</li>
+                            <li>C++</li>
+                            <li>Java</li>
+                            <li>Kotlin</li>
                         </ul>
                     </div>
 
                     <div class="bg-yellow-300 border-4 border-black shadow-[6px_6px_0_#000] p-6">
-                        <h4 class="font-bold text-red-900 mb-4">IT Support</h4>
+                        <h4 class="font-bold text-red-900 mb-4">IT Operations & Tools</h4>
                         <ul class="space-y-2 text-red-800">
-                            <li>Windows</li>
-                            <li>Linux</li>
-                            <li>Networking</li>
+                            <li>Cisco Packet Tracer</li>
+                            <li>Network Routing</li>
+                            <li>Git / GitHub</li>
+                            <li>AI-Assisted Tools</li>
+                            <li>CMS Management</li>
                         </ul>
                     </div>
 
+                </div>
+
+                <div class="flex flex-wrap gap-3 mt-6">
+                    <span class="border-2 border-black bg-[#5F8F76] text-black px-4 py-2 font-bold text-sm">Bahasa Indonesia — Native</span>
+                    <span class="border-2 border-black bg-[#5F8F76] text-black px-4 py-2 font-bold text-sm">English — Professional (TOEIC 725)</span>
                 </div>
 
             </div>
@@ -513,10 +526,239 @@
     </div>
 
     <section id="project" class="py-24 px-6">
-        <div class="">
+        <div class="max-w-6xl mx-auto">
+
+            <!-- Heading -->
+            <div class="mb-16">
+
+                <span
+                    class="inline-block rounded-full border-2 shadow-[2px_2px_0px_#f97316] border-orange-500 px-4 py-1 text-sm font-medium tracking-wide">
+                    Project
+                </span>
+
+                <h2 class="mt-6 text-4xl font-black leading-tight lg:text-5xl">
+                    Things I've
+                    <span class="block text-transparent" style="-webkit-text-stroke: 2px #000;">
+                        Built
+                    </span>
+                </h2>
+
+            </div>
+
+            <!-- Featured Project -->
+            <div class="grid md:grid-cols-2 gap-10 items-center border-2 border-black bg-white shadow-[6px_6px_0px_#000] p-8 md:p-10">
+
+                <!-- Preview -->
+                <div class="relative h-64 md:h-80 flex items-center justify-center bg-[#5F8F76] border-2 border-black">
+                    <span class="text-6xl">🖥️</span>
+                </div>
+
+                <!-- Details -->
+                <div class="space-y-5">
+
+                    <h3 class="text-2xl font-black leading-snug">
+                        Luthfi Rahman | CV dan Portfolio
+                    </h3>
+
+                    <p class="text-gray-600 leading-7">
+                        Web profile untuk menjelaskan CV dan portofolio secara digital,
+                        menampilkan identitas profesional dan hasil karya dengan
+                        tampilan yang informatif dan mudah diakses.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2">
+                        <span class="border-2 border-black bg-orange-200 px-3 py-1 text-xs font-bold">HTML</span>
+                        <span class="border-2 border-black bg-orange-200 px-3 py-1 text-xs font-bold">Tailwind CSS</span>
+                        <span class="border-2 border-black bg-orange-200 px-3 py-1 text-xs font-bold">JavaScript</span>
+                    </div>
+
+                    <a
+                        href="https://github.com/mluthfirahman/Luthfi-Rahman---Personal-CV-dan-Portfolio---Digital-Creative"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center gap-2 border-2 border-black bg-black text-white px-5 py-2.5 font-bold shadow-[4px_4px_0px_#5F8F76] transition hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none">
+                        View Source Code
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Other Projects -->
+            <div class="grid md:grid-cols-3 gap-8 mt-10">
+
+                <div class="flex flex-col border-2 border-black bg-white shadow-[6px_6px_0px_#000] p-6">
+                    <span class="self-start border-2 border-black bg-[#8B5CF6] text-white px-3 py-1 text-xs font-bold mb-4">Client Project</span>
+                    <h4 class="font-black text-lg mb-2">PANDAY Dashboard</h4>
+                    <p class="text-xs text-gray-500 mb-3">Yarsi University DPJJ Division · Feb – Aug 2024</p>
+                    <p class="text-gray-600 text-sm leading-6 flex-1">
+                        Dashboard institusional berbasis Laravel dengan arsitektur
+                        database hybrid SQL/NoSQL, terhubung ke REST API LMS kampus
+                        untuk sinkronisasi data.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mt-4">
+                        <span class="border-2 border-black bg-orange-200 px-2 py-1 text-xs font-bold">Laravel</span>
+                        <span class="border-2 border-black bg-orange-200 px-2 py-1 text-xs font-bold">REST API</span>
+                        <span class="border-2 border-black bg-orange-200 px-2 py-1 text-xs font-bold">SQL/NoSQL</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col border-2 border-black bg-white shadow-[6px_6px_0px_#000] p-6">
+                    <span class="self-start border-2 border-black bg-[#5F8F76] text-black px-3 py-1 text-xs font-bold mb-4">Team Project</span>
+                    <h4 class="font-black text-lg mb-2">Web-Based Book Recommendation</h4>
+                    <p class="text-xs text-gray-500 mb-3">Front End Developer · Oct – Dec 2025</p>
+                    <p class="text-gray-600 text-sm leading-6 flex-1">
+                        Fitur client-side untuk autentikasi pengguna dan tampilan
+                        rekomendasi buku berbasis AI, mengambil data dinamis dari
+                        REST API.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mt-4">
+                        <span class="border-2 border-black bg-orange-200 px-2 py-1 text-xs font-bold">Vue.js</span>
+                        <span class="border-2 border-black bg-orange-200 px-2 py-1 text-xs font-bold">Bootstrap</span>
+                        <span class="border-2 border-black bg-orange-200 px-2 py-1 text-xs font-bold">REST API</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col border-2 border-black bg-white shadow-[6px_6px_0px_#000] p-6">
+                    <span class="self-start border-2 border-black bg-orange-500 text-white px-3 py-1 text-xs font-bold mb-4">Competition</span>
+                    <h4 class="font-black text-lg mb-2">IoT Hardware Device</h4>
+                    <p class="text-xs text-gray-500 mb-3">Winner & Nominee, Specialization Track Exhibition · Aug 2023</p>
+                    <p class="text-gray-600 text-sm leading-6 flex-1">
+                        Perangkat Internet of Things yang dirancang dan dipamerkan
+                        di ajang eksibisi kampus, menjadi nominee untuk lanjut
+                        ke PRAGMA 40.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mt-4">
+                        <span class="border-2 border-black bg-orange-200 px-2 py-1 text-xs font-bold">IoT</span>
+                        <span class="border-2 border-black bg-orange-200 px-2 py-1 text-xs font-bold">Hardware</span>
+                    </div>
+                </div>
+
+            </div>
 
         </div>
     </section>
+
+    <!-- Paper Tear Divider -->
+    <div class="relative overflow-hidden bg-orange-100 leading-none">
+
+        <svg
+            class="block w-full h-20"
+            viewBox="0 0 1440 120"
+            preserveAspectRatio="none"
+            xmlns="http://www.w3.org/2000/svg">
+
+            <path
+                fill="#151B19"
+                d="
+                M0,35
+                C40,55 80,15 120,35
+                C160,55 200,15 240,35
+                C280,55 320,15 360,35
+                C400,55 440,15 480,35
+                C520,55 560,15 600,35
+                C640,55 680,15 720,35
+                C760,55 800,15 840,35
+                C880,55 920,15 960,35
+                C1000,55 1040,15 1080,35
+                C1120,55 1160,15 1200,35
+                C1240,55 1280,15 1320,35
+                C1360,55 1400,15 1440,35
+                L1440,120
+                L0,120
+                Z"/>
+        </svg>
+
+    </div>
+
+    <section id="contact" class="bg-[#151B19] py-24 px-6">
+        <div class="max-w-6xl mx-auto">
+
+            <div class="mb-16 text-center">
+                <span
+                    class="inline-block bg-[#5F8F76] border-4 border-black px-4 py-2 font-bold shadow-[5px_5px_0_#000]">
+                    CONTACT
+                </span>
+
+                <h2 class="mt-6 text-5xl font-black text-[#F5F5F5]">
+                    Let's Build
+                    <span class="text-[#8B5CF6]">Something</span>
+                    Together.
+                </h2>
+
+                <p class="mt-4 text-gray-400 max-w-xl mx-auto">
+                    Open for freelance work and collaboration. Fill in the form
+                    below and your message goes straight to my inbox.
+                </p>
+            </div>
+
+            <!-- Get In Touch Form -->
+            <form id="contact-form" class="max-w-2xl mx-auto bg-[#1F2824] border-4 border-black shadow-[6px_6px_0_#000] p-8 space-y-5">
+
+                <h3 class="text-2xl font-black text-white mb-2">Get In Touch</h3>
+
+                <div>
+                    <label for="name" class="block text-sm font-bold text-[#5F8F76] mb-2">NAME</label>
+                    <input type="text" id="name" name="name" required
+                           class="w-full border-2 border-black bg-[#27312D] text-white px-4 py-3 focus:outline-none focus:shadow-[3px_3px_0px_#5F8F76]"
+                           placeholder="Your name">
+                </div>
+
+                <div>
+                    <label for="email" class="block text-sm font-bold text-[#5F8F76] mb-2">EMAIL</label>
+                    <input type="email" id="email" name="email" required
+                           class="w-full border-2 border-black bg-[#27312D] text-white px-4 py-3 focus:outline-none focus:shadow-[3px_3px_0px_#5F8F76]"
+                           placeholder="your@email.com">
+                </div>
+
+                <div>
+                    <label for="message" class="block text-sm font-bold text-[#5F8F76] mb-2">MESSAGE</label>
+                    <textarea id="message" name="message" required rows="5"
+                              class="w-full border-2 border-black bg-[#27312D] text-white px-4 py-3 focus:outline-none focus:shadow-[3px_3px_0px_#5F8F76] resize-none"
+                              placeholder="Tell me about your project..."></textarea>
+                </div>
+
+                <button type="submit"
+                        class="w-full border-2 border-black bg-[#5F8F76] text-black px-6 py-3 font-bold shadow-[4px_4px_0px_#000] transition hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none">
+                    Send Message
+                </button>
+
+                <p id="form-status" class="text-sm min-h-[1.25rem] text-center"></p>
+
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="bg-black border-t-4 border-black px-6 py-10">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+
+            <a href="#home" class="flex items-center gap-3 text-white">
+                <img src="img/LR-Logo.png" alt="Luthfi Rahman" class="h-9 w-9 object-contain" />
+                <span class="text-lg font-bold">Luthfi Rahman</span>
+            </a>
+
+            <ul class="flex flex-wrap justify-center gap-6 text-sm font-semibold text-gray-400">
+                <li><a href="#home" class="hover:text-white transition">Home</a></li>
+                <li><a href="#about" class="hover:text-white transition">About Me</a></li>
+                <li><a href="#project" class="hover:text-white transition">Project</a></li>
+                <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
+            </ul>
+
+            <div class="flex items-center gap-4">
+                <a href="mailto:luthfirahh@gmail.com" class="text-gray-400 hover:text-white transition text-sm font-semibold">Email</a>
+                <span class="text-gray-600">◆</span>
+                <a href="https://www.linkedin.com/in/mluthfirahman/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition text-sm font-semibold">LinkedIn</a>
+                <span class="text-gray-600">◆</span>
+                <a href="https://github.com/mluthfirahman" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition text-sm font-semibold">GitHub</a>
+            </div>
+
+        </div>
+
+        <p class="mt-8 text-center text-xs text-gray-600">
+            © 2026 Muhammad Luthfi Rahman. All rights reserved.
+        </p>
+    </footer>
 
 </main>
 </body>
@@ -534,5 +776,45 @@
 
     menu.classList.toggle("py-0");
     menu.classList.toggle("py-4");
+});
+
+const contactForm = document.getElementById("contact-form");
+const formStatus = document.getElementById("form-status");
+
+const EMAILJS_SERVICE_ID = "service_j4f7z2e";
+const EMAILJS_TEMPLATE_ID = "template_gbfb0d1";
+const EMAILJS_PUBLIC_KEY = "UcBJzrDMD7uSQTaRF";
+
+emailjs.init(EMAILJS_PUBLIC_KEY);
+
+contactForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    const submitBtn = contactForm.querySelector("button[type='submit']");
+    submitBtn.disabled = true;
+    submitBtn.textContent = "Sending...";
+    formStatus.textContent = "";
+
+    const params = {
+        name: document.getElementById("name").value.trim(),
+        email: document.getElementById("email").value.trim(),
+        message: document.getElementById("message").value.trim(),
+    };
+
+    emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, params)
+        .then(() => {
+            formStatus.textContent = "Pesan berhasil dikirim. Terima kasih!";
+            formStatus.className = "text-sm text-[#5F8F76] font-semibold text-center";
+            contactForm.reset();
+        })
+        .catch((error) => {
+            formStatus.textContent = "Gagal mengirim pesan, coba lagi nanti.";
+            formStatus.className = "text-sm text-red-400 font-semibold text-center";
+            console.error("EmailJS error:", error);
+        })
+        .finally(() => {
+            submitBtn.disabled = false;
+            submitBtn.textContent = "Send Message";
+        });
 });
 </script>
